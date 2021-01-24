@@ -6,6 +6,7 @@ SofarCtrl is a modbus interface for the Sofar ME3000SP solar battery inverter.
 It allows remote control of the ME3000 in passive mode via incoming MQTT messages and reports
 back the invertor status, power usage, battery state etc via outgoing MQTT messages.
 It's designed to run on an ESP8266 microcontroller with a TTL to RS485 module such as MAX485 or MAX3485.
+Also compatible with HYD ES Series tested on the HYD-4000-ES.
 
 Subscribe your MQTT server to these queues:
 
@@ -65,6 +66,7 @@ I tend to keep the wires on top of the board, poke them through and solder under
 ![Wiring](pics/wiring.jpg)
 
 Make sure you connect the DR and RE pins together. The red arrow below shows where a single wire from D5 connects to both DR and RE.
+This step is not necessary if you use and Auto Flow RS485 module with RX and TX pins.
 
 ![Short these pins](pics/short.jpg)
 
