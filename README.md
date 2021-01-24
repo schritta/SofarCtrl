@@ -66,7 +66,7 @@ I tend to keep the wires on top of the board, poke them through and solder under
 ![Wiring](pics/wiring.jpg)
 
 Make sure you connect the DR and RE pins together. The red arrow below shows where a single wire from D5 connects to both DR and RE.
-This step is not necessary if you use and Auto Flow RS485 module with RX and TX pins.
+This step is not necessary if you use an Auto Flow RS485 module with RX and TX pins.
 
 ![Short these pins](pics/short.jpg)
 
